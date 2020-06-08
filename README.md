@@ -22,17 +22,17 @@ Installing TensorFlow
 mkdir tensorFlow
 cd tensorFlow
 
-**Create a virtualenv
+#Create a virtualenv
 
 python3.7 -m venv .
 
-**Running this command creates the target directory (creating any parent directories that don’t exist already) and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is .venv).
+#Running this command creates the target directory (creating any parent directories that don’t exist already) and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is .venv).
 
-**Activate this virtual envirnoment
+#Activate this virtual envirnoment
 
 source /bin/activate
 
-**Install dependencies
+#Install dependencies
 
 sudo easy_install pip 
 (my version at this time is pip version 19.1.1)
