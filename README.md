@@ -48,18 +48,26 @@ ImportError: No module named tensorflow
 
 # Solution
 run test-tf.py to check if TensorFlow is imported correctly.
+
 python3.7 test-tf.py
 
 # TensorBoard
 
 Activate tensorFlow
+
 source ~/tensorFlow/bin/activate
+
 python --version
+
 pip show tensorflow
+
 pip install tensorboard
+
 tensorboard --logdir=/Users/n0237580/tensorFlow/logs
 
 # TroubleShoot
-**cd /Users/n0237580/tensorFlow/lib/python3.7/site-packages
-**cd tensorboard
-**python main.py --logdir=/Users/n0237580/tensorFlow/logs
+cd /Users/n0237580/tensorFlow/lib/python3.7/site-packages
+
+cd tensorboard
+
+python main.py --logdir=/Users/n0237580/tensorFlow/logs
