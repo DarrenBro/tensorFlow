@@ -1,4 +1,4 @@
-# tensorFlow
+# tensorFlow (python)
 
 TensorFlow is a framework of machine learning using data flow graphs. TensorFlow offers APIs binding to Python, C++ and Java. Operations in TensorFlow with Python API often requires the installation of NumPy, among others.
 
@@ -18,14 +18,24 @@ So the core of building something that uses ML;
 
 **Note to setting up your IDE
 Installing TensorFlow
+
 mkdir tensorFlow
 cd tensorFlow
 
-Create a virtualenv
+**Create a virtualenv
 
 python3.7 -m venv .
+
+**Running this command creates the target directory (creating any parent directories that don’t exist already) and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is .venv).
+
+**Activate this virtual envirnoment
+
+source /bin/activate
+
+**Install dependencies
+
 sudo easy_install pip 
-or pip install --upgrade pip (if you have pip already, my version at this time is pip version 19.1.1)
+(my version at this time is pip version 19.1.1)
 pip3 install tensorflow
 check => pip3 show tensorflow
 
