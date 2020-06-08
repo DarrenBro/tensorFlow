@@ -16,19 +16,13 @@ So the core of building something that uses ML;
 1. You get data that has patterns inherent in it.
 2. Your neural network learns what those patterns are.
 
-**Note to setting up your IDE
-Installing TensorFlow
-
-mkdir tensorFlow
-cd tensorFlow
-
-#Create a virtualenv
+# Git clone or fork this project, cd into root and create a virtualenv
 
 python3.7 -m venv .
 
-#Running this command creates the target directory (creating any parent directories that don’t exist already) and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is .venv).
+# Running this command creates the target directory (creating any parent directories that don’t exist already) and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is .venv).
 
-#Activate this virtual envirnoment
+# Activate this virtual envirnoment
 
 source /bin/activate
 
