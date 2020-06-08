@@ -20,19 +20,19 @@ So the core of building something that uses ML;
 
 python3.7 -m venv .
 
-# Running this command creates the target directory (creating any parent directories that don’t exist already) and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is .venv).
+# Running above command creates the target directory (creating any parent directories that don’t exist already) and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is .venv).
+You can read more aboout it here https://docs.python.org/3/library/venv.html
 
 # Activate this virtual envirnoment
 
 source /bin/activate
 
-#Install dependencies
+# Install pip to install dependencies(tensorflow)
 
 sudo easy_install pip 
 (my version at this time is pip version 19.1.1)
 pip3 install tensorflow
 check => pip3 show tensorflow
-
 
 # TroubleShooting
 
@@ -46,11 +46,11 @@ Issue with below
 /usr/local/bin/python3.7: can't find '__main__' module in '/Users/dir/tensorFlow'
 ImportError: No module named tensorflow
 
-Solution
+# Solution
 run test-tf.py to check if TensorFlow is imported correctly.
 python3.7 test-tf.py
 
-TensorBoard
+# TensorBoard
 
 Activate tensorFlow
 source ~/tensorFlow/bin/activate
@@ -59,7 +59,7 @@ pip show tensorflow
 pip install tensorboard
 tensorboard --logdir=/Users/n0237580/tensorFlow/logs
 
-TroubleShoot
+# TroubleShoot
 cd /Users/n0237580/tensorFlow/lib/python3.7/site-packages
 cd tensorboard
 python main.py --logdir=/Users/n0237580/tensorFlow/logs
