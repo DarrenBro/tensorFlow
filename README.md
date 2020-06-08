@@ -1,4 +1,4 @@
-# tensorFlow (python)
+# tensorFlow (python) - Beginner example models
 
 TensorFlow is a framework of machine learning using data flow graphs. TensorFlow offers APIs binding to Python, C++ and Java. Operations in TensorFlow with Python API often requires the installation of NumPy, among others.
 
