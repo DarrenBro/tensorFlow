@@ -16,16 +16,16 @@ So the core of building something that uses ML;
 1. You get data that has patterns inherent in it.
 2. Your neural network learns what those patterns are.
 
-# Git clone or fork this project, cd into root and create a virtualenv
+# Git clone or fork this project, cd into root and create a virtualenv, (only works with python 3)
 
-python3.7 -m venv .
+python3 -m venv .
 
 # Running above command creates the target directory (creating any parent directories that don’t exist already) and places a pyvenv.cfg file in it with a home key pointing to the Python installation from which the command was run (a common name for the target directory is .venv).
-You can read more aboout it here https://docs.python.org/3/library/venv.html
+You can read more about it here https://docs.python.org/3/library/venv.html
 
-# Activate this virtual envirnoment
+# Then activate this virtual envirnoment
 
-source /bin/activate
+source bin/activate
 
 # Install pip to install dependencies(tensorflow)
 
