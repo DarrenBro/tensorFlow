@@ -49,7 +49,7 @@ ImportError: No module named tensorflow
 # Solution
 run test-tf.py to check if TensorFlow is imported correctly.
 
-python3.7 test-tf.py
+python3 test-tf.py
 
 # TensorBoard
 
