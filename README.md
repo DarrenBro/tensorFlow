@@ -16,7 +16,7 @@ So the core of building something that uses ML;
 1. You get data that has patterns inherent in it.
 2. Your neural network learns what those patterns are.
 
-# Git clone or fork this project, cd into root and create a virtualenv, (only works with python 3)
+# Git clone or fork this project, cd into root and create a virtual envirnoment, (suggest using python3)
 
 python3 -m venv .
 
