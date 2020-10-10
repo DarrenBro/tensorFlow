@@ -8,6 +8,5 @@ from tensorflow import keras
 # y = 2x - 1
 
 
-
 # predict y when x = 10
 # expect 19 !
